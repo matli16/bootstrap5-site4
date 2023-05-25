@@ -25,6 +25,23 @@
     text-align:center; 
     margin-left: 26%;
 }
+.banner_section{
+    text-align: center;
+    padding: 10%;
+    background-color: #FF7000;
+    height: 600px;
+    color: white;
+}
+h4{
+    font-size: 5rem;
+}
+h5{
+    font-size: 1rem;
+}
+.banner_nav{
+    padding: 5%;
+    margin-top: 10%;
+}
 @media (max-width: 768px) {
 
     .nav-item{
