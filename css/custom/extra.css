@@ -1,0 +1,66 @@
+.logo{
+    height: 100px;
+}
+.navcolor{
+    background-color: #FF7000;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link:hover{
+    color: #540375;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+
+}
+.slogan{
+    font-weight: bold;
+    font-size: 24px;
+    text-align:center; 
+    margin-left: 26%;
+}
+@media (max-width: 768px) {
+
+    .nav-item{
+        margin-top: 15px;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    .logo2{
+        height: 100px;
+    }
+    .slogan{
+        font-weight: bold;
+        font-size: 24px;
+        text-align:center; 
+        margin-left: 26%;
+}
+.logo2{
+    height: 100px;
+    margin-left: 8%;
+    position:relative;
+}
+.navbar-nav{
+    background-color: #540375;
+}
+.nav-link{
+    color: #FF7000;
+
+}
+.nav-item:hover{
+    color: red;
+    padding-left: 40px;
+}
+.nav-link:hover{
+    color: white;
+}
+}
+
+
+
