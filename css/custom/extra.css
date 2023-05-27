@@ -24,6 +24,7 @@
     font-size: 24px;
     text-align:center; 
     margin-left: 26%;
+    font-family: "Satisfy",sans-serif;
 }
 .banner_section{
     text-align: center;
@@ -133,7 +134,13 @@ h5{
         font-family: "Merienda",sans-serif;
         font-size: 24px;
     }
-
+    .footer-col{
+        background-color: #FF7000;
+        color: white;
+    }
+    .container-fluid{
+        width: 80%;
+    }
 @media (max-width: 768px) {
     .p-modal .modal-content h2{
         font-size: 1.5rem;
@@ -159,7 +166,9 @@ h5{
         font-weight: bold;
         font-size: 24px;
         text-align:center; 
-        margin-left: 26%;
+        margin-left: 22%;
+        font-family: "Satisfy",sans-serif;
+
 }
 .logo2{
     height: 100px;
@@ -212,6 +221,17 @@ h5{
     height: 1000px;
     color: white;
 }
+.footer-col{
+    background-color: #FF7000;
+    color: white;
+    text-align: center;
+}
+.container-fluid{
+    width: 80%;
+}
+.nav-link:focus, .nav-link:hover{
+    color: white;
+}
 }
 @media (min-width: 576px) and (max-width: 767px) { 
     .banner_section{
@@ -237,6 +257,8 @@ h5{
         font-size: 24px;
         text-align:center; 
         margin-left: 26%;
+        font-family: "Satisfy",sans-serif;
+
 }
 .logo2{
     height: 100px;
